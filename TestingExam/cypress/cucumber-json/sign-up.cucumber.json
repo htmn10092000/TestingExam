@@ -1,0 +1,86 @@
+[
+  {
+    "description": "    As a user, I want to sign up to the system",
+    "keyword": "Feature",
+    "name": "Sign up to the system",
+    "line": 2,
+    "id": "sign-up-to-the-system",
+    "tags": [
+      {
+        "name": "@sign_up",
+        "line": 1
+      }
+    ],
+    "uri": "sign-up.feature",
+    "elements": [
+      {
+        "id": "sign-up-to-the-system;sign-up-to-the-system-successfully",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Sign up to the system successfully",
+        "tags": [
+          {
+            "name": "@sign_up",
+            "line": 1
+          },
+          {
+            "name": "@sign_up_successfully",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on conduit page",
+            "result": {
+              "status": "passed",
+              "duration": 1786000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "dagsh1",
+                      "dsdi@gmail.com",
+                      "1423547ry"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user sign up with info as below:",
+            "result": {
+              "status": "passed",
+              "duration": 1254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user can access Home page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1301000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

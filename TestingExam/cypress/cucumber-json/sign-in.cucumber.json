@@ -1,0 +1,170 @@
+[
+  {
+    "description": "    As a user, I want to sign in to the system",
+    "keyword": "Feature",
+    "name": "Sign in to the system",
+    "line": 2,
+    "id": "sign-in-to-the-system",
+    "tags": [
+      {
+        "name": "@sign_in",
+        "line": 1
+      }
+    ],
+    "uri": "sign-in.feature",
+    "elements": [
+      {
+        "id": "sign-in-to-the-system;sign-in-to-the-system-unsuccessfully",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Sign in to the system unsuccessfully",
+        "tags": [
+          {
+            "name": "@sign_in",
+            "line": 1
+          },
+          {
+            "name": "@sign_in_unsuccessfully",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on conduit page",
+            "result": {
+              "status": "passed",
+              "duration": 651000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "dsdi@gmail.com",
+                      "142353g47ry"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user sign in with info as below:",
+            "result": {
+              "status": "passed",
+              "duration": 807000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "an error message is shown",
+            "result": {
+              "status": "passed",
+              "duration": 1314000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user cannot access Home page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-in-to-the-system;sign-in-to-the-system-unsuccessfully",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Sign in to the system unsuccessfully",
+        "tags": [
+          {
+            "name": "@sign_in",
+            "line": 1
+          },
+          {
+            "name": "@sign_in_unsuccessfully",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on conduit page",
+            "result": {
+              "status": "passed",
+              "duration": 420000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "testS@gmail.com",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user sign in with info as below:",
+            "result": {
+              "status": "passed",
+              "duration": 756000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "an error message is shown",
+            "result": {
+              "status": "passed",
+              "duration": 669000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user cannot access Home page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
